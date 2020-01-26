@@ -29,7 +29,7 @@
 
 #ifdef ESP_AT_AP_VERSION_WILLRETRY_N
 #undef ESP_AT_AP_VERSION_WILLRETRY_FOREVER
-const uint8_t ESP_AT_AP_QTY_RETRIES = 3; // The number of retries after a timeout (0xFF means infinity);
+const uint8_t ESP_AT_AP_QTY_RETRIES = 3; // The number of retries after a timeout.
 #endif
 
 const uint8_t PIN_OUT_LED_HB = 13;
